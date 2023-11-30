@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+}
+
+a:hover{
+    color:green;
+}
+
+
+h3.german {
+    color: orange;
+    text-align: left;
+}
+
+a.schitzel {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+
+h3.korean {
+    color: red;
+    text-align: left;
+
+}
+
+a.gejang{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+h3.hawaiian {
+    color: honeydew;
+    text-align: left;
+}
+
+a.musubi {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+}
