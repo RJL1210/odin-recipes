@@ -1,47 +1,77 @@
+html {
+    box-sizing: border-box;
+}
 body {
     font-family: sans-serif;
-    background-color: grey;
+    background-color: darkgray;
+    border: red 2px;
 }
 
 h1 {
     text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
 }
 
 a:hover{
-    color:green;
+    color: lightblue;
 }
 
+h3 {
+    display: block;
+    margin: 0px auto;
+    padding: 8px 0px;
 
-h3.german {
-    color: orange;
-    text-align: left;
+}
+
+div {
+    background-color: lightgrey;
+}
+.german {
+    color: white;
+    width: auto;
+    margin: 10px;
+    margin-left: 23em;
+    display: inline-block;
+    padding: 25px;
+    border: 2px inset white;
+    margin-top: 0px;
 }
 
 a.schitzel {
-    display: inline-block;
-    text-align: left;
-    width: 100%;
 }
 
-h3.korean {
-    color: red;
-    text-align: left;
+.korean {
+    color: white;
+    margin: 10px;
+    display: inline-block;
+    padding: 25px;
+    width: auto;
+    border: 2px inset white;
+    margin-top: 0px;
+}
+
+.k {
 
 }
 
 a.gejang{
-    display: inline-block;
-    text-align: center;
-    width: 100%;
+   
 }
 
-h3.hawaiian {
-    color: honeydew;
-    text-align: left;
+.hawaiian {
+    color: white;
+    margin: 10px;
+    display: inline-block;
+    padding: 25px;
+    width: auto;
+    margin-right: 20em;
+    border: 2px inset white;
+    margin-top: 0px;
 }
 
 a.musubi {
-    display: inline-block;
-    text-align: right;
-    width: 100%;
 }
